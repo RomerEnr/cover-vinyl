@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("img/cover-body.jpeg");
+  background-image: url("img/page-background.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -24,8 +24,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(43 43 43);
-  box-shadow: 0 0 4px  #b1b0b0 inset;
+  background-image: url("img/container-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -5px -5px 4px #2b2b2b inset;
 }
 
 .cover {
@@ -36,13 +38,13 @@ body {
   background: grey;
   background-image: url("img/master-of-puppets-cover.jpeg");
   background-size: contain;
-  box-shadow: 0 0 4px 2px #b1b0b0 inset;
+  box-shadow: 5px 5px 10px 0.5px #7c7c7c;
 }
 
 .vinyl {
   width: var(--size);
   height: var(--size);
-  background-color: black;
+  background-color: #6d6a6a;
   border-radius: var(--cover-radius);
   display: flex;
   justify-content: center;
@@ -53,11 +55,11 @@ body {
     background-image 6s ease-in-out;
   background-image:
     linear-gradient(130deg, transparent 40%, #fff5, transparent 60%),
-    repeating-radial-gradient(circle at center, #333 0 1px, black 1px 20px);
+    repeating-radial-gradient(circle at center, #333 0 1px, black 1px 10px);
 }
 
 .vinyl:hover {
-  transform: translateX(-50px) rotate(80deg);
+  transform: translateX(-50px) rotate(220deg);
 }
 
 .vinyl-label {
