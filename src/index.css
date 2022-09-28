@@ -34,7 +34,6 @@ body {
   width: var(--size);
   height: var(--size);
   z-index: 2;
-  border: 2px solid black;
   background: grey;
   background-image: url("img/master-of-puppets-cover.jpeg");
   background-size: contain;
